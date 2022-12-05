@@ -5,5 +5,10 @@
 }
 
 .page1 {
+    display: flex;
+    box-sizing: border-box;
+}
 
+.footer {
+    box-sizing: border-box;
 }
