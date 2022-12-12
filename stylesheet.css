@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-
 }
 
 main {
@@ -96,14 +94,16 @@ header {
 }
 
 footer {
-
     border: 1px rgb(0, 0, 0) solid;
     padding: 2em;
     background-color:royalblue;
+    text-align: center;
+    font-size: larger;
 }
 
 div img {
     width: 300px;
+    display: flex;
 }
 
 .image1{
