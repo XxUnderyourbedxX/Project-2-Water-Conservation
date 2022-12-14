@@ -58,7 +58,7 @@ header {
 }
 
 .Header1-Text{
-    text-align:center;
+    text-align: center;
 }
 
 .Header2-Text{
@@ -101,6 +101,11 @@ footer {
     font-size: larger;
 }
 
+footer p{
+    background-color: #2F4C67;
+    color: aliceblue;
+}
+
 div img {
     width: 300px;
     display: flex;
@@ -119,7 +124,7 @@ div img {
     position: relative;
     text-align: right;
     color: aliceblue;
-    margin-left: 48%;
+    margin-left: 41%;
 }
 
 .FlexBox-Content1 {
@@ -133,7 +138,7 @@ div img {
 }
 
 .FlexBox-Content2 h2,p {
-    font-size: large;
+    font-size: 23px;
 }
 
 .FlexBox-Content2 {
@@ -145,14 +150,12 @@ div img {
     background-color: #D9D9D9;
 }
 
-.FlexBox-Content2 h2,p {
-    font-size: large;
-}
+
 
 .centered {
     display: flex-end;
     position:absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -180,7 +183,6 @@ div img {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
